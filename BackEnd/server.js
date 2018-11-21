@@ -10,6 +10,7 @@ mongoose.connect(mongoDB);
 var Schema = mongoose.Schema;
 var postSchema = new Schema({
     title: String,
+    name: String,
     number: Number,
     address: String,
     email: String

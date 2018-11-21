@@ -16,6 +16,7 @@ import { MatInputModule,
   MatExpansionModule} from '@angular/material';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
 
 import { PostCreateComponent } from './post-create/post-create.component';
 import { PostEditComponent } from './post-edit/post-edit.component';
@@ -57,7 +58,8 @@ const appRoutes: Routes = [
   MatToolbarModule,
   MatExpansionModule,
   MatMenuModule,
-  MatFormFieldModule
+  MatFormFieldModule,
+  MatSelectModule
   ],
   providers: [PostService],
   bootstrap: [AppComponent]

@@ -1,4 +1,7 @@
 export interface Post {
-  title: string;
-  content: string;
+  title: String;
+  name: String;
+  address: String;
+  number: number;
+  email: String
 }
